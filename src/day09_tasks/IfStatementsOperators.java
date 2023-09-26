@@ -9,10 +9,11 @@ public class IfStatementsOperators {
 
         System.out.println("Write a boolean value (true/false): ");
         boolean value = input.hasNextBoolean();
-        if (value) {
-            System.out.println("The opposite value is: " + !value);
+        if (value == true ) {
+              System.out.println("The opposite value is: " + !value);
         }else {
             System.out.println("The opposite value is: " + !value);
         }
+
     }
 }
